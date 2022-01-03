@@ -7,6 +7,7 @@ extern crate aoc_runner_derive;
 extern crate lazy_static;
 extern crate regex;
 
+mod day1;
 mod utils;
 
 aoc_lib!{ year = 2016 }
