@@ -8,6 +8,7 @@ extern crate lazy_static;
 extern crate regex;
 
 mod day1;
+mod day2;
 mod utils;
 
 aoc_lib!{ year = 2016 }
