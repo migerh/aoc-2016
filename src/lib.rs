@@ -6,6 +6,8 @@ extern crate aoc_runner_derive;
 #[macro_use]
 extern crate lazy_static;
 extern crate regex;
+extern crate pathfinding;
+extern crate memoize;
 
 mod day1;
 mod day2;
@@ -18,6 +20,7 @@ mod day8;
 mod day9;
 mod day10;
 mod day12;
+mod day13;
 mod utils;
 
 aoc_lib!{ year = 2016 }
