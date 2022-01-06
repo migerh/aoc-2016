@@ -8,6 +8,7 @@ extern crate lazy_static;
 extern crate regex;
 extern crate pathfinding;
 extern crate memoize;
+extern crate rayon;
 
 mod day1;
 mod day2;
@@ -21,6 +22,7 @@ mod day9;
 mod day10;
 mod day12;
 mod day13;
+mod day14;
 mod utils;
 
 aoc_lib!{ year = 2016 }
